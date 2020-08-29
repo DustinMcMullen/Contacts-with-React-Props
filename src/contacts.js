@@ -1,5 +1,6 @@
 const contacts = [
   {
+    id: 1,
     name: "Beyonce",
     imgURL:
       "https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg",
@@ -7,17 +8,19 @@ const contacts = [
     email: "b@beyonce.com"
   },
   {
-    name: "Jack Bauer",
+    id: 2,
+    name: "Nas",
     imgURL:
-      "https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg",
-    phone: "+987 654 321",
-    email: "jack@nowhere.com"
+      "https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTIwNjA4NjMzNjkyMzI1Mzg4/nas-507692-1-402.jpg",
+    phone: "098-765-4321",
+    email: "nastynas@illmatic.com"
   },
   {
-    name: "Chuck Norris",
-    imgURL:
-      "https://i.pinimg.com/originals/e3/94/47/e39447de921955826b1e498ccf9a39af.png",
-    phone: "+918 372 574",
-    email: "gmail@chucknorris.com"
+    id: 3,
+    name: "John Wayne",
+    imgURL: "https://pmcvariety.files.wordpress.com/2020/06/john-wayne.jpg",
+    phone: "111-222-3333",
+    email: "Marion@westerns.com"
   }
 ];
+export default contacts;
